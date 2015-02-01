@@ -20,7 +20,14 @@ class ViewController: UIViewController {
         
         var calculatedAge = enteredAge / 7
         
-        ageOutputField.text = "You are \(calculatedAge) in cat years"
+        if calculatedAge == 0.0 {
+            
+            ageOutputField.text = "Please enter a number > 0"
+            
+        } else {
+        
+            ageOutputField.text = "You are \(calculatedAge) in cat years"
+        }
         
     }
     
