@@ -20,34 +20,43 @@
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q4Z-Hn-IDO">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                 <items>
-                                    <navigationItem title="Stopwatch" id="Gpx-Ho-74f"/>
+                                    <navigationItem title="Stopwatch" id="Gpx-Ho-74f">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="pause" id="UsD-8D-IyN"/>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kdc-Ye-9oV">
-                                <rect key="frame" x="299" y="56" width="60" height="30"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
-                                <state key="normal" title="STOP">
-                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T9j-hk-Mmt">
-                                <rect key="frame" x="16" y="56" width="60" height="30"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="START">
-                                    <color key="titleColor" red="0.25098040699958801" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JAc-gc-crT">
+                                <rect key="frame" x="100" y="197" width="174" height="235"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="174" id="9qk-qJ-Bgp"/>
+                                    <constraint firstAttribute="height" constant="235" id="dSl-Qh-5uD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="72"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="axH-jO-rbX">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <items>
+                                    <barButtonItem title="START" id="GmH-Ls-RdM">
+                                        <color key="tintColor" red="0.25098040699958801" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="nrT-Qo-PFK"/>
+                                    <barButtonItem title="STOP" id="2BJ-X8-41M">
+                                        <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Kdc-Ye-9oV" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="3Od-o0-43f"/>
+                            <constraint firstAttribute="centerX" secondItem="JAc-gc-crT" secondAttribute="centerX" id="9Si-Mu-ZKc"/>
+                            <constraint firstAttribute="centerY" secondItem="JAc-gc-crT" secondAttribute="centerY" id="B1L-pH-uJ3"/>
                             <constraint firstItem="Q4Z-Hn-IDO" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" id="BsT-4k-4He"/>
-                            <constraint firstItem="Kdc-Ye-9oV" firstAttribute="top" secondItem="Q4Z-Hn-IDO" secondAttribute="bottom" constant="12" id="GQG-Ow-DYF"/>
-                            <constraint firstItem="T9j-hk-Mmt" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="IGi-sk-lFS"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="axH-jO-rbX" secondAttribute="trailing" constant="-16" id="HR0-Jt-q6c"/>
+                            <constraint firstItem="axH-jO-rbX" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="N4J-cu-OYd"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Q4Z-Hn-IDO" secondAttribute="trailing" constant="-16" id="OmZ-ar-mSg"/>
-                            <constraint firstItem="T9j-hk-Mmt" firstAttribute="top" secondItem="Q4Z-Hn-IDO" secondAttribute="bottom" constant="12" id="SMo-fT-hhL"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="axH-jO-rbX" secondAttribute="bottom" id="P0W-Gu-79e"/>
                             <constraint firstItem="Q4Z-Hn-IDO" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="uKm-Cm-bQS"/>
                         </constraints>
                     </view>
