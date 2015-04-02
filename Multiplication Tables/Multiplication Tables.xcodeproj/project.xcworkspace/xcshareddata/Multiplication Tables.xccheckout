@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>DEB3395D-F4D5-43AD-B889-F1958CB6C346</string>
+	<string>97523FBB-0D6A-42CB-AAEE-F6632CAE7374</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Stopwatch</string>
+	<string>Multiplication Tables</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>7D2F6BF2ED73DF0A6AF8B75E71D470B7A41E22EF</key>
 		<string>https://github.com/scyphi/Swift.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Stopwatch/Stopwatch.xcodeproj</string>
+	<string>Multiplication Tables/Multiplication Tables.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>7D2F6BF2ED73DF0A6AF8B75E71D470B7A41E22EF</key>
