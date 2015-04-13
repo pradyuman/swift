@@ -3,5 +3,5 @@ My Swift/iOS playground
 
 Currently contains:
 
-*Cat Year Converter
-*Stopwatch
+* Cat Year Converter
+* Stopwatch
