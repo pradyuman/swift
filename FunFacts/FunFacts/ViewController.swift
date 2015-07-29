@@ -12,9 +12,13 @@ class ViewController: UIViewController {
 
    @IBOutlet weak var factLabel: UILabel!
    
+   let facts = ["Ants stretch when they wake up in the morning.", "Ostritches can run faster than horses."]
+   
    override func viewDidLoad() {
       super.viewDidLoad()
       // Do any additional setup after loading the view, typically from a nib.
+      factLabel.text = facts[0]
+      
    }
 
    override func didReceiveMemoryWarning() {
@@ -23,7 +27,7 @@ class ViewController: UIViewController {
    }
 
    @IBAction func showFact() {
-      factLabel.text = "Another interesting fact"
+      factLabel.text = facts[1]
    }
 
 }
