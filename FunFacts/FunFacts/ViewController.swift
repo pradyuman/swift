@@ -12,12 +12,12 @@ class ViewController: UIViewController {
 
    @IBOutlet weak var factLabel: UILabel!
    
-   let facts = ["Ants stretch when they wake up in the morning.", "Ostritches can run faster than horses."]
+   let factBook = FactBook()
    
    override func viewDidLoad() {
       super.viewDidLoad()
       // Do any additional setup after loading the view, typically from a nib.
-      factLabel.text = facts[0]
+      factLabel.text = factBook.facts[0]
       
    }
 
@@ -27,7 +27,7 @@ class ViewController: UIViewController {
    }
 
    @IBAction func showFact() {
-      factLabel.text = facts[1]
+      factLabel.text = factBook.facts[1]
    }
 
 }
