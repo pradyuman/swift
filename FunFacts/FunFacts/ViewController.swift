@@ -17,7 +17,7 @@ class ViewController: UIViewController {
    override func viewDidLoad() {
       super.viewDidLoad()
       // Do any additional setup after loading the view, typically from a nib.
-      factLabel.text = factBook.facts[0]
+      factLabel.text = factBook.randomFact()
       
    }
 
@@ -27,7 +27,7 @@ class ViewController: UIViewController {
    }
 
    @IBAction func showFact() {
-      factLabel.text = factBook.facts[1]
+      factLabel.text = factBook.randomFact()
    }
 
 }

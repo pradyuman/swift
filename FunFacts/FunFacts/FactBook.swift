@@ -21,4 +21,11 @@ struct FactBook {
       "On average, it takes 66 days to form a new habit.",
       "Mammoths still walked the earth when the Great Pyramid was being built."
    ]
+   
+   func randomFact() -> String {
+      var numberOfFacts = UInt32(facts.count)
+      var randomNum = Int(arc4random_uniform(numberOfFacts))
+      
+      return facts[randomNum]
+   }
 }
