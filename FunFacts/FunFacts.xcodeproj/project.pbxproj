@@ -14,6 +14,7 @@
 		0BB624E11B6437D400832634 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BB624DF1B6437D400832634 /* LaunchScreen.xib */; };
 		0BB624ED1B6437D400832634 /* FunFactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB624EC1B6437D400832634 /* FunFactsTests.swift */; };
 		0BB624F71B69945200832634 /* FactBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB624F61B69945200832634 /* FactBook.swift */; };
+		0BB624F91B6ED49400832634 /* ColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB624F81B6ED49400832634 /* ColorWheel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		0BB624EB1B6437D400832634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BB624EC1B6437D400832634 /* FunFactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsTests.swift; sourceTree = "<group>"; };
 		0BB624F61B69945200832634 /* FactBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactBook.swift; sourceTree = "<group>"; };
+		0BB624F81B6ED49400832634 /* ColorWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorWheel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				0BB624D61B6437D400832634 /* AppDelegate.swift */,
 				0BB624F61B69945200832634 /* FactBook.swift */,
+				0BB624F81B6ED49400832634 /* ColorWheel.swift */,
 				0BB624D81B6437D400832634 /* ViewController.swift */,
 				0BB624DA1B6437D400832634 /* Main.storyboard */,
 				0BB624DD1B6437D400832634 /* Images.xcassets */,
@@ -218,6 +221,7 @@
 				0BB624F71B69945200832634 /* FactBook.swift in Sources */,
 				0BB624D91B6437D400832634 /* ViewController.swift in Sources */,
 				0BB624D71B6437D400832634 /* AppDelegate.swift in Sources */,
+				0BB624F91B6ED49400832634 /* ColorWheel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +417,7 @@
 				0BB624F21B6437D400832634 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0BB624F31B6437D400832634 /* Build configuration list for PBXNativeTarget "FunFactsTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +426,7 @@
 				0BB624F51B6437D400832634 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
