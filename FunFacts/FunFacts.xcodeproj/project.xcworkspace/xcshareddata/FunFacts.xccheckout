@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>930F589F-6A79-4E8F-922F-151455EE9CA3</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>FunFacts</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>7D2F6BF2ED73DF0A6AF8B75E71D470B7A41E22EF</key>
 		<string>https://github.com/scyphi/Swift.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>FunFacts/FunFacts.xcodeproj/project.xcworkspace</string>
+	<string>FunFacts/FunFacts.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>7D2F6BF2ED73DF0A6AF8B75E71D470B7A41E22EF</key>
@@ -34,7 +34,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>7D2F6BF2ED73DF0A6AF8B75E71D470B7A41E22EF</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Swift</string>
+			<string>swift</string>
 		</dict>
 	</array>
 </dict>
